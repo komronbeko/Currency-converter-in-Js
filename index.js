@@ -5,8 +5,8 @@ alert(`Welcome to our currency converter! If you want to convert your money(sum)
 var type = prompt(`We have three options to choose: a.dollar; b.euro; c.rubl. which currency do you prefer to convert? (enter the relevant letter)` );
 var sum = Number (prompt (`Enter the amount of your sum.`));
 
-var a = 11.257;
-var b = 11.85;
+var a = 11257;
+var b = 1185;
 var c = 180;
 
 var dlrCnvrt = sum / a;
@@ -14,9 +14,9 @@ var eroCnvrt = sum / b;
 var rblCnvrt = sum / c;
 
 
-var dlrRslt = `You will have ${a} dollars`;
-var eroRslt = `You will have ${b} euros`;
-var rblRslt = `You will have ${c} rubls`;
+var dlrRslt = `You will have ${dlrCnvrt} dollars`;
+var eroRslt = `You will have ${eroCnvrt} euros`;
+var rblRslt = `You will have ${rblCnvrt} rubls`;
 
 
 
